@@ -43,17 +43,9 @@ This project implements a complete authentication system featuring email verific
 
 ### Screenshots
 
-#### Home Page:
-![Home Page](#)  <!-- Replace # with the actual image path -->
+#### Pages:
+![Pages](https://res.cloudinary.com/djtgab7oz/image/upload/v1735321040/MERN_FINAL_nm2h9b.png)  <!-- Replace # with the actual image path -->
 
-#### Login Page:
-![Login Page](#)  <!-- Replace # with the actual image path -->
-
-#### Registration Page:
-![Registration Page](#)  <!-- Replace # with the actual image path -->
-
-#### Password Reset Page:
-![Password Reset Page](#)  <!-- Replace # with the actual image path -->
 
   
 
