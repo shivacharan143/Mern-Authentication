@@ -28,15 +28,9 @@ This project implements a complete authentication system featuring email verific
 
 ## Technologies Used
 
-- **Backend:**
-  - Node.js
-  - Express.js
-  - MongoDB
-  - JWT
+**Frontend:** React, TailwindCSS
 
-- **Frontend:**
-  - React
-  - Tailwind CSS
+**Backend:** Express.js, MongoDB, JWT, Node Js
 
 ## Project Demo
 🔗 [Live Demo](https://mern-auth-frontend-5pdz.onrender.com/)  <!-- Replace # with the actual demo link -->
