@@ -10,7 +10,7 @@ import UserRouter from './routes/UserRoutes.js'
 
 const app = express()
 const PORT = process.env.PORT || 4000
-const allowedOrigins = ['https://mern-authentication-peach.vercel.app/']
+const allowedOrigins = [process.env.FRONTEND]
 //call the DB fun.
 connectDB()
 
