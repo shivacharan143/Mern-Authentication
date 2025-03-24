@@ -24,7 +24,12 @@ const Login = () => {
         e.preventDefault()
         axios.defaults.withCredentials = true //this will send cookies with every request
         if(state === 'Sign Up'){
-        const {data} =   await axios.post(backendUrl + '/api/auth/register', {name, email, password})
+        const {data} =   await axios.post(backendUrl + '/api/auth/register', {name, email, password}, {
+          withCredentials: true,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        })
 
           if(data.success){
             setIsLogin(true)
