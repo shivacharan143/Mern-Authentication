@@ -40,7 +40,12 @@ const Login = () => {
           }
 
         }else{
-          const {data} =   await axios.post(backendUrl + '/api/auth/login', {email, password})
+          const {data} =   await axios.post(backendUrl + '/api/auth/login', {email, password}, {
+          withCredentials: true,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        })
 
           if(data.success){
             setIsLogin(true)
