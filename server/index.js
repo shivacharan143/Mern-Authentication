@@ -10,7 +10,7 @@ import UserRouter from './routes/UserRoutes.js'
 
 const app = express()
 const PORT = process.env.PORT || 4000
-const allowedOrigins = ['https://mern-auth-frontend-5pdz.onrender.com']
+const allowedOrigins = ['https://mern-authentication-peach.vercel.app/']
 //call the DB fun.
 connectDB()
 
