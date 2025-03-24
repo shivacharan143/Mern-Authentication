@@ -11,6 +11,15 @@ import UserRouter from './routes/UserRoutes.js'
 const app = express()
 const PORT = process.env.PORT || 4000
 const allowedOrigins = [process.env.FRONTEND]
+
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', 'https://mern-authentication-peach.vercel.app');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.setHeader('Access-Control-Allow-Credentials', 'true'); // If using cookies
+  next();
+});
+
 //call the DB fun.
 connectDB()
 
